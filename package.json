@@ -1,0 +1,31 @@
+{
+  "name": "svelte-ts-vite-tailwind",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.11",
+    "@tsconfig/svelte": "^2.0.1",
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "sass": "^1.39.0",
+    "svelte": "^3.37.0",
+    "svelte-check": "^2.1.0",
+    "svelte-preprocess": "^4.7.2",
+    "tailwindcss": "^2.2.11",
+    "tslib": "^2.2.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.1",
+    "svelte-material-ui": "^4.2.0",
+    "svelte-spa-router": "^3.2.0",
+    "sveltestrap": "^5.6.3"
+  }
+}
