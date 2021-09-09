@@ -8,7 +8,7 @@
 
 <a href="/about" use:link>About</a>
 
-<Button>
+<Button variant="outlined">
   <Label>Click Me</Label>
 </Button>
 
