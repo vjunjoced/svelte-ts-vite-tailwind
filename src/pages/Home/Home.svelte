@@ -7,5 +7,7 @@
 
 <a href="/about" use:link>About</a>
 
+<img src="images/svelte.png" alt="">
+
 <style>
 </style>
