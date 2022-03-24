@@ -1,8 +1,9 @@
 {
   "extends": "@tsconfig/svelte/tsconfig.json",
   "compilerOptions": {
-     "types": ["svelte"],
+    "types": ["svelte"],
     "target": "esnext",
+    "strict": true,
     "useDefineForClassFields": true,
     "module": "esnext",
     "resolveJsonModule": true,
@@ -12,6 +13,9 @@
     "checkJs": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "isolatedModules": false,
+    "experimentalDecorators": true,
+    "importsNotUsedAsValues": "remove",
     "paths": {
       "@assets/*": ["src/assets/*"],
       "@components/*": ["src/components/*"],
@@ -21,7 +25,8 @@
       "@models/*": ["src/models/*"],
       "@pages/*": ["src/pages/*"],
       "@services/*": ["src/services/*"],
-      "@store/*": ["src/store/*"]
+      "@store/*": ["src/store/*"],
+      "@utils/*": ["src/utils/*"]
     }
   },
   "include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.js", "src/**/*.svelte"]
