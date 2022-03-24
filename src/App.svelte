@@ -1,16 +1,12 @@
 <script>
-  import Router, { push } from "svelte-spa-router";
-  import routes from "./routes";
+  import Router, { push } from 'svelte-spa-router';
+  import routes from './routes';
 
-  function conditionsFailed() {
-    push("/");
+  async function conditionsFailed() {
+    await push('/');
   }
 </script>
 
 <main>
-  <Router
-    {routes}
-    on:conditionsFailed={conditionsFailed}
-    restoreScrollState={true}
-  />
+  <Router {routes} on:conditionsFailed={conditionsFailed} restoreScrollState={true} />
 </main>
