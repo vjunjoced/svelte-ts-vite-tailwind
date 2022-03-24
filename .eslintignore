@@ -4,3 +4,4 @@ svelte.config.js
 .eslintrc.cjs
 node_modules
 dist
+postcss.config.cjs
