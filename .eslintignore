@@ -1,0 +1,6 @@
+vite.config.js
+tailwind.config.cjs
+svelte.config.js
+.eslintrc.cjs
+node_modules
+dist
