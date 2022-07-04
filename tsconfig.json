@@ -6,6 +6,7 @@
     "strict": true,
     "useDefineForClassFields": true,
     "module": "esnext",
+    "moduleResolution": "node",
     "resolveJsonModule": true,
     "rootDir": "./src",
     "baseUrl": "./",
